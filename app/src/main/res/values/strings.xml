@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Wallee</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_download">DownloadActivity</string>
+    <string name="title_activity_create_task">CreateTaskActivity</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_date">Date</string>
+
+    <string-array name="tabs">
+        <item>Date</item>
+        <item>Time</item>
+    </string-array>
+
+    <string name="ok">OK</string>
+    <string name="del">DELETE</string>
+    <string name="title_activity_alarm">AlarmActivity</string>
+
+</resources>

@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar"
+    />
+
+    <TextView
+        android:id="@+id/text"
+        android:text="@string/hello_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_bar"
+    />
+
+    <Button
+        android:layout_below="@id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonStartActiviy"
+
+        android:text="Start New"/>
+
+    <Button
+        android:layout_below="@id/buttonStartActiviy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonCreateActivity"
+
+        android:text="Create New Task"/>
+
+    <Button
+        android:layout_below="@id/buttonCreateActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonLoginActivity"
+        android:text="Login IN"/>
+
+    <Button
+        android:layout_below="@id/buttonLoginActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DateButton"
+        android:text="Select Date"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@id/DateButton"
+        android:id="@+id/my_recycler_view"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>
